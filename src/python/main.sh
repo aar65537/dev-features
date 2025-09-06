@@ -5,8 +5,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 echo 'eval "$(uv generate-shell-completion zsh)"' >> $HOME/.zshrc
 
 # Install python tooling
-uv tool install basedpyright
-uv tool install ruff
+$HOME/.local/bin/uv tool install basedpyright
+$HOME/.local/bin/uv tool install ruff
 
 # Configure helix
 echo '[[language]]

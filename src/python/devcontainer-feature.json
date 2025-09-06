@@ -1,6 +1,6 @@
 {
   "id": "python",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "name": "Install python tools",
   "description": "A feature to install python tools on top of base image",
   "customizations": {
