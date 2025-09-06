@@ -20,6 +20,8 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib
 # check <LABEL> <cmd> [args...]
 check "verify uv is installed" bash -c "uv --version"
+check "verify basedpyright is installed" bash -c "basedpyright --version"
+check "verify ruff is installed" bash -c "ruff --version"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
