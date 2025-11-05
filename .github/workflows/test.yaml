@@ -15,8 +15,10 @@ jobs:
         features:
           - python
         baseImage:
+          - ghcr.io/aar65537/dev-containers/base:edge-trixie
           - ghcr.io/aar65537/dev-containers/base:edge-bookworm
           - ghcr.io/aar65537/dev-containers/base:edge-bullseye
+          - ghcr.io/aar65537/dev-containers/base:latest-trixie
           - ghcr.io/aar65537/dev-containers/base:latest-bookworm
           - ghcr.io/aar65537/dev-containers/base:latest-bullseye
     steps:
