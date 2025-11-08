@@ -1,15 +1,23 @@
 {
   "id": "python",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "Install python tools",
   "description": "A feature to install python tools on top of base image",
+  "containerEnv": {
+    "UV_LINK_MODE": "copy",
+    "VIRTUAL_ENV_DISABLE_PROMPT": "1"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
         "charliermarsh.ruff",
+        "detachhead.basedpyright",
         "ms-python.python",
         "tamasfe.even-better-toml"
-      ]
+      ],
+      "settings": {
+        "python.analysis.typeCheckingMode": "off"
+      }
     }
   }
 }
