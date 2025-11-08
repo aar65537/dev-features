@@ -18,6 +18,7 @@ A feature to install python tools on top of base image
 ### VS Code Extensions
 
 - `charliermarsh.ruff`
+- `detachhead.basedpyright`
 - `ms-python.python`
 - `tamasfe.even-better-toml`
 
